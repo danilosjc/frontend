@@ -106,10 +106,8 @@
     margin-top: 30px;
     margin-left: 60px;
     order: 1;
-    border: 1px solid #FFF;
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
 }
 
 .project2 {
@@ -128,6 +126,27 @@
     order: 4;
 }
 
-.ilustration {
-    width: 100%;
+.teste1 {
+    margin-top: 30px;
+    margin-left: 30px;
 }
+
+.teste2 {
+    margin-top: 30px;
+    margin-left: 10px;
+    
+}
+
+.texto {
+    margin-left: 30px;
+}
+
+.estrela {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.bullet {
+    margin-left: 200px;
+}
+
