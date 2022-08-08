@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #22212C;
+    width: 1440px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    background-color: #22212C;
+    width: 388px;
+    height: 100%;   
+}
+
+.container2 {
+    background-color: #22212C;
+    width: 1050px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 348px;
+    background-color: #302F3D;
+    color: #837E9F;;
+    margin-left: 40px;
+}
+
+.box1 {   
+    background-color: #302F3D;
+    color: #837E9F;
+
+}
+
+.profile {
+    height: 275px;
+    margin-top: 40px;
+}
+
+.links {
+    height: 348px;
+    margin-top: 47px;
+}
+
+.tecnologies {
+    height: 275px;
+    margin-top: 30px;
+}
+
+.experience {
+    height: 275px;
+    margin-top: 30px;
+}
+
+.education {
+    height: 275px;
+    margin-top: 30px;
+    margin-bottom: 58px;
+}
+
+.my-projects {
+    width: 952px;
+    height: 86px;
+    margin-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.txt {
+    color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: auto 30px;
+}
+
+.myprojects {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.veja-todos {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.recent-posts {
+    width: 952px;
+    height: 86px;
+    margin-top: 30px;
+    margin-left: 60px;
+    order: 3;
+}
+
+.project1 {
+    width: 461px;
+    height: 186px;
+    margin-top: 30px;
+    margin-left: 60px;
+    order: 1;
+    border: 1px solid #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.project2 {
+    width: 461px;
+    height: 186px;
+    margin-top: 30px;
+    margin-left: 30px;
+    order: 2;
+}
+
+.post {
+    width: 952px;
+    height: 201px;
+    margin-top: 30px;
+    margin-left: 60px;
+    order: 4;
+}
+
+.ilustration {
+    width: 100%;
+}
