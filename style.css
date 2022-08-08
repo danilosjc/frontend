@@ -146,6 +146,10 @@
     text-align: center;
 }
 
+.git {
+    margin-left: 10px;
+}
+
 .bullet {
     margin-left: 200px;
 }
