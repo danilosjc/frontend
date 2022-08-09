@@ -98,6 +98,12 @@
     margin-top: 30px;
     margin-left: 60px;
     order: 3;
+    display: flex;
+}
+
+.recentposts {
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .project1 {
@@ -108,6 +114,7 @@
     order: 1;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .project2 {
@@ -116,6 +123,9 @@
     margin-top: 30px;
     margin-left: 30px;
     order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .post {
@@ -124,21 +134,31 @@
     margin-top: 30px;
     margin-left: 60px;
     order: 4;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Merriweather Sans', sans-serif;
+    
 }
 
-.teste1 {
+.folder {
     margin-top: 30px;
     margin-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.teste2 {
+.my-onix {
     margin-top: 30px;
     margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
     
 }
 
 .texto {
     margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .estrela {
@@ -152,5 +172,48 @@
 
 .bullet {
     margin-left: 200px;
+}
+
+.cem {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.foto {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #fff;
+}
+
+.posttexto {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 612px;
+    height: 129px;  
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.tempo {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hashtag {
+    font-size: 14px;
+    font-weight: 400;
 }
 
