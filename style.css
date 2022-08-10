@@ -56,21 +56,84 @@
 }
 
 .tecnologies {
-    height: 275px;
+    width: 348px;
+    height: 208px;
     margin-top: 30px;
-    display: flex;
+    border-radius: 5%;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+
+    display:flex;
     flex-wrap: wrap;
 }
 
+.tecnologias {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100%;
+}
+
 .tech {
-    margin: 0;
+    border-radius: 10px;
+    background-color: #CB92B1;
+    color: black;
+    font-size: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+
     width: 86px;
     height: 24px;
-    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .js {
     margin-left: 30px;
+    margin-top: 20px;
+}
+
+.reactjs {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.nodejs {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.tgit {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.tgithub {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.html {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.css {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.elixir {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.reactnative {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .experience {
@@ -302,6 +365,3 @@
     margin-top: 26px;
 
 }
-
-
-
