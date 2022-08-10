@@ -48,6 +48,10 @@
 .links {
     height: 348px;
     margin-top: 47px;
+    display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
 }
 
 .tecnologies {
@@ -216,4 +220,73 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.link {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.briefcase {
+    margin-top: 20px;
+}
+
+.github {
+    margin-top: 20px;
+}
+
+.linkedin {
+    margin-top: 20px;
+}
+
+.twitter {
+    margin-top: 20px;
+}
+
+.globe {
+    margin-top: 20px;
+}
+
+.mail {
+    margin-top: 20px;
+}
+
+.rocketseat {
+    margin-top: 28px;
+
+} 
+
+.biro {
+    margin-top: 26px;
+
+}
+
+.linkedin2 {
+    margin-top: 29px;
+
+}
+
+.tt {
+    margin-top: 26px;
+
+}
+
+.site {
+    margin-top: 26px;
+
+}
+
+.email {
+    margin-top: 26px;
+
+}
+
 
