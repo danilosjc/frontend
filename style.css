@@ -21,7 +21,7 @@
 
 .container2 {
     background-color: #22212C;
-    width: 1050px;
+    width: 1049px;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -137,14 +137,40 @@
 }
 
 .experience {
-    height: 275px;
+    height: 349px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.experiencia,
+.educacao {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.lista {
+    margin-left: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.linha {
+    margin-top: 20px;
 }
 
 .education {
-    height: 275px;
+    height: 352px;
     margin-top: 30px;
     margin-bottom: 58px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
 }
 
 .my-projects {
