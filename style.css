@@ -431,5 +431,22 @@
 
 .email {
     margin-top: 26px;
+}
 
+a:link {
+    color: #837E9F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #837E9F;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #837E9F;
 }
