@@ -32,11 +32,13 @@
     background-color: #302F3D;
     color: #837E9F;;
     margin-left: 40px;
+    border-radius: 5%;
 }
 
 .box1 {   
     background-color: #302F3D;
     color: #837E9F;
+   
 
 }
 
@@ -44,30 +46,35 @@
     height: 275px;
     margin-top: 40px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .profoto {
     margin-top: 32px;
     margin-left: 110px;
-    border: 1px solid #fff;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid green;
     width: 128px;
     height: 128px;
+   
 }
 
 .nome {
-    margin-top: 30px;
-    margin-left: 76px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
 
 }
 
 .profissao {
+    margin-top: 10px;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 13px;
     font-weight: 300;
+    text-align: center;
 }
 
 .links {
@@ -205,6 +212,10 @@
     margin-left: 60px;
     display: flex;
     justify-content: space-between;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
 
 }
 
@@ -231,6 +242,7 @@
     margin-left: 60px;
     order: 3;
     display: flex;
+    border-radius: 15px;
 }
 
 .recentposts {
@@ -247,6 +259,8 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 15px;
+    
 }
 
 .project2 {
@@ -258,6 +272,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 15px;
 }
 
 .post {
@@ -269,6 +284,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 15px;
     
 }
 
@@ -317,6 +333,8 @@
     margin-left: 30px;
     width: 128px;
     height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .posttexto {
